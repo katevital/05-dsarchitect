@@ -325,8 +325,8 @@ export const lightTheme: DefaultTheme = {
 
   typography: {
     fontFamily: {
-      text: `"Inter", -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
-      heading: `"Inter", -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
+      text: `Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
+      heading: `Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'`,
       monospace: `'SFMono-Medium', 'SF Mono', 'Segoe UI Mono', 'Roboto Mono', 'Ubuntu Mono', Menlo, Consolas, Courier, monospace`,
     },
     fontSize: {
@@ -399,7 +399,8 @@ export const lightTheme: DefaultTheme = {
       small: spacers[8],
       medium: spacers[12],
       mediumRelaxed: spacers[16],
-      relaxed: spacers[32],
+      relaxed: spacers[24],
+      large: spacers[32],
     },
     height: {
       none: spacers[0],
@@ -427,7 +428,7 @@ export const lightTheme: DefaultTheme = {
   },
 };
 
-export const onDarkTheme: DefaultTheme = {
+export const darkTheme: DefaultTheme = {
   ...lightTheme,
   colors: {
     bg: {

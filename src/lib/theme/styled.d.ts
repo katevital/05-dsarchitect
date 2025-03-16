@@ -398,6 +398,7 @@ declare module "styled-components" {
         medium: string;
         mediumRelaxed: string;
         relaxed: string;
+        large: string;
       };
       height: {
         none: string;
@@ -415,7 +416,6 @@ declare module "styled-components" {
       };
     };
     spacing;
-
     borderRadius: {
       rounded: string;
       micro: string;

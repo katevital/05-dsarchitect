@@ -61,7 +61,7 @@ declare module "styled-components" {
             focus: string;
           };
         };
-        success: {
+        green: {
           calm: {
             enabled: string;
             hover: string;
@@ -81,7 +81,7 @@ declare module "styled-components" {
             focus: string;
           };
         };
-        warning: {
+        yellow: {
           calm: {
             enabled: string;
             hover: string;
@@ -101,7 +101,7 @@ declare module "styled-components" {
             focus: string;
           };
         };
-        critical: {
+        red: {
           calm: {
             enabled: string;
             hover: string;
@@ -122,6 +122,26 @@ declare module "styled-components" {
           };
         };
         cyan: {
+          calm: {
+            enabled: string;
+            hover: string;
+            active: string;
+            focus: string;
+          };
+          loud: {
+            enabled: string;
+            hover: string;
+            active: string;
+            focus: string;
+          };
+          bold: {
+            enabled: string;
+            hover: string;
+            active: string;
+            focus: string;
+          };
+        };
+        blue: {
           calm: {
             enabled: string;
             hover: string;
@@ -190,7 +210,7 @@ declare module "styled-components" {
             focus: string;
           };
         };
-        success: {
+        green: {
           calm: {
             enabled: string;
           };
@@ -198,7 +218,7 @@ declare module "styled-components" {
             enabled: string;
           };
         };
-        warning: {
+        yellow: {
           calm: {
             enabled: string;
           };
@@ -206,7 +226,7 @@ declare module "styled-components" {
             enabled: string;
           };
         };
-        critical: {
+        red: {
           calm: {
             enabled: string;
           };
@@ -215,6 +235,14 @@ declare module "styled-components" {
           };
         };
         cyan: {
+          calm: {
+            enabled: string;
+          };
+          bold: {
+            enabled: string;
+          };
+        };
+        blue: {
           calm: {
             enabled: string;
           };
@@ -254,7 +282,7 @@ declare module "styled-components" {
             focus: string;
           };
         };
-        success: {
+        green: {
           calm: {
             enabled: string;
           };
@@ -262,7 +290,7 @@ declare module "styled-components" {
             enabled: string;
           };
         };
-        warning: {
+        yellow: {
           calm: {
             enabled: string;
           };
@@ -270,7 +298,7 @@ declare module "styled-components" {
             enabled: string;
           };
         };
-        critical: {
+        red: {
           calm: {
             enabled: string;
           };
@@ -279,6 +307,14 @@ declare module "styled-components" {
           };
         };
         cyan: {
+          calm: {
+            enabled: string;
+          };
+          loud: {
+            enabled: string;
+          };
+        };
+        blue: {
           calm: {
             enabled: string;
           };
@@ -415,7 +451,7 @@ declare module "styled-components" {
         xxxLarge: string;
       };
     };
-    spacing;
+
     borderRadius: {
       rounded: string;
       micro: string;

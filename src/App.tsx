@@ -1,16 +1,19 @@
 import React from "react";
-import { GlobalStyle, lightTheme, darkTheme } from "./lib";
-import { Button, Icon } from "./lib";
+import { GlobalStyle } from "./lib/theme";
+import { lightTheme, darkTheme } from "./lib";
+import { Placeholder, Button, Icon, Button, ButtonLink, Badge } from "./lib";
 import { ThemeProvider } from "styled-components";
 
 function App() {
   const isDarkTheme = true;
+  console.log("Rendering App component");
+
   return (
     <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
       <GlobalStyle />
       <main>
-        <Button size="base" iconAfter="chevronDown" text="Привет!" />
-        <Button appearance="secondary" size="small" disabled />
+        <Badge size="base" text="Hello world" />
+        <Badge outlined appearance="green" size="small" text="Hello world" />
       </main>
     </ThemeProvider>
   );

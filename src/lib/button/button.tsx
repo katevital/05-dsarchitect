@@ -1,6 +1,5 @@
 import styled from "styled-components";
-import React from "react";
-import { Icon } from "../icon";
+import { Icon, iconsType } from "../icon";
 
 type TAppearance = "primary" | "secondary" | "onDark" | "onLight" | "inverted";
 type TSize = "base" | "small";
@@ -17,7 +16,7 @@ interface IButtonProps {
 
 const StyledButton = styled.button<IButtonProps>`
   border: 1px solid;
-  border-radius: 0px;
+  border-radius: 4px;
   display: inline-flex;
   justify-content: center;
   align-items: center;

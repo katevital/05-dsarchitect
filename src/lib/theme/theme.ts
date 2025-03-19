@@ -63,7 +63,7 @@ export const lightTheme: DefaultTheme = {
           focus: colors.blue[500],
         },
       },
-      success: {
+      green: {
         calm: {
           enabled: colors.green[50],
           hover: colors.green[100],
@@ -83,7 +83,7 @@ export const lightTheme: DefaultTheme = {
           focus: colors.green[500],
         },
       },
-      warning: {
+      yellow: {
         calm: {
           enabled: colors.yellow[50],
           hover: colors.yellow[100],
@@ -103,7 +103,7 @@ export const lightTheme: DefaultTheme = {
           focus: colors.yellow[500],
         },
       },
-      critical: {
+      red: {
         calm: {
           enabled: colors.red[50],
           hover: colors.red[100],
@@ -141,6 +141,26 @@ export const lightTheme: DefaultTheme = {
           hover: colors.cyan[600],
           active: colors.cyan[700],
           focus: colors.cyan[500],
+        },
+      },
+      blue: {
+        calm: {
+          enabled: colors.blue[50],
+          hover: colors.blue[100],
+          active: colors.blue[200],
+          focus: colors.blue[50],
+        },
+        loud: {
+          enabled: colors.blue[400],
+          hover: colors.blue[500],
+          active: colors.blue[600],
+          focus: colors.blue[400],
+        },
+        bold: {
+          enabled: colors.blue[500],
+          hover: colors.blue[600],
+          active: colors.blue[700],
+          focus: colors.blue[500],
         },
       },
     },
@@ -192,7 +212,7 @@ export const lightTheme: DefaultTheme = {
           focus: colors.blue[200],
         },
       },
-      success: {
+      green: {
         calm: {
           enabled: colors.green[200],
         },
@@ -200,7 +220,7 @@ export const lightTheme: DefaultTheme = {
           enabled: colors.green[500],
         },
       },
-      warning: {
+      yellow: {
         calm: {
           enabled: colors.yellow[200],
         },
@@ -208,7 +228,7 @@ export const lightTheme: DefaultTheme = {
           enabled: colors.yellow[500],
         },
       },
-      critical: {
+      red: {
         calm: {
           enabled: colors.red[200],
         },
@@ -222,6 +242,14 @@ export const lightTheme: DefaultTheme = {
         },
         bold: {
           enabled: colors.cyan[500],
+        },
+      },
+      blue: {
+        calm: {
+          enabled: colors.blue[200],
+        },
+        bold: {
+          enabled: colors.blue[500],
         },
       },
     },
@@ -256,7 +284,7 @@ export const lightTheme: DefaultTheme = {
           focus: colors.blue[400],
         },
       },
-      success: {
+      green: {
         calm: {
           enabled: colors.green[50],
         },
@@ -264,7 +292,7 @@ export const lightTheme: DefaultTheme = {
           enabled: colors.green[400],
         },
       },
-      warning: {
+      yellow: {
         calm: {
           enabled: colors.yellow[50],
         },
@@ -272,7 +300,7 @@ export const lightTheme: DefaultTheme = {
           enabled: colors.yellow[400],
         },
       },
-      critical: {
+      red: {
         calm: {
           enabled: colors.red[50],
         },
@@ -282,13 +310,22 @@ export const lightTheme: DefaultTheme = {
       },
       cyan: {
         calm: {
-          enabled: colors.grey[50],
+          enabled: colors.cyan[50],
         },
         loud: {
-          enabled: colors.grey[400],
+          enabled: colors.cyan[400],
+        },
+      },
+      blue: {
+        calm: {
+          enabled: colors.blue[50],
+        },
+        loud: {
+          enabled: colors.blue[400],
         },
       },
     },
+
     link: {
       calm: {
         enabled: colors.blue[100],
@@ -491,7 +528,7 @@ export const darkTheme: DefaultTheme = {
           focus: colors.blue[300],
         },
       },
-      success: {
+      green: {
         calm: {
           enabled: colors.green[800],
           hover: colors.green[700],
@@ -511,7 +548,7 @@ export const darkTheme: DefaultTheme = {
           focus: colors.green[300],
         },
       },
-      warning: {
+      yellow: {
         calm: {
           enabled: colors.yellow[800],
           hover: colors.yellow[700],
@@ -531,7 +568,7 @@ export const darkTheme: DefaultTheme = {
           focus: colors.yellow[300],
         },
       },
-      critical: {
+      red: {
         calm: {
           enabled: colors.red[800],
           hover: colors.red[700],
@@ -569,6 +606,26 @@ export const darkTheme: DefaultTheme = {
           hover: colors.cyan[200],
           active: colors.cyan[100],
           focus: colors.cyan[300],
+        },
+      },
+      blue: {
+        calm: {
+          enabled: colors.blue[800],
+          hover: colors.blue[700],
+          active: colors.blue[600],
+          focus: colors.blue[800],
+        },
+        loud: {
+          enabled: colors.blue[200],
+          hover: colors.blue[100],
+          active: colors.blue[50],
+          focus: colors.blue[200],
+        },
+        bold: {
+          enabled: colors.blue[300],
+          hover: colors.blue[200],
+          active: colors.blue[100],
+          focus: colors.blue[300],
         },
       },
     },
@@ -620,7 +677,7 @@ export const darkTheme: DefaultTheme = {
           focus: colors.blue[400],
         },
       },
-      success: {
+      green: {
         calm: {
           enabled: colors.green[600],
         },
@@ -628,7 +685,7 @@ export const darkTheme: DefaultTheme = {
           enabled: colors.green[300],
         },
       },
-      warning: {
+      yellow: {
         calm: {
           enabled: colors.yellow[600],
         },
@@ -636,7 +693,7 @@ export const darkTheme: DefaultTheme = {
           enabled: colors.yellow[300],
         },
       },
-      critical: {
+      red: {
         calm: {
           enabled: colors.red[600],
         },
@@ -650,6 +707,14 @@ export const darkTheme: DefaultTheme = {
         },
         bold: {
           enabled: colors.cyan[300],
+        },
+      },
+      blue: {
+        calm: {
+          enabled: colors.blue[600],
+        },
+        bold: {
+          enabled: colors.blue[300],
         },
       },
     },
@@ -684,7 +749,7 @@ export const darkTheme: DefaultTheme = {
           focus: colors.blue[200],
         },
       },
-      success: {
+      green: {
         calm: {
           enabled: colors.green[800],
         },
@@ -692,7 +757,7 @@ export const darkTheme: DefaultTheme = {
           enabled: colors.green[200],
         },
       },
-      warning: {
+      yellow: {
         calm: {
           enabled: colors.yellow[800],
         },
@@ -700,7 +765,7 @@ export const darkTheme: DefaultTheme = {
           enabled: colors.yellow[200],
         },
       },
-      critical: {
+      red: {
         calm: {
           enabled: colors.red[800],
         },
@@ -714,6 +779,14 @@ export const darkTheme: DefaultTheme = {
         },
         loud: {
           enabled: colors.cyan[200],
+        },
+      },
+      blue: {
+        calm: {
+          enabled: colors.blue[800],
+        },
+        loud: {
+          enabled: colors.blue[200],
         },
       },
     },

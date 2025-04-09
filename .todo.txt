@@ -1,0 +1,13 @@
+@todo
+global style
+contextProvider / Theme
+placeholder
+button
+  interface
+  styledComponent
+  implement
+     baseStyles
+     appearence
+     size
+     disabled
+     

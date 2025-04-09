@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 #local files
-.todo.txt
+.todo.txtstorybook-blue/

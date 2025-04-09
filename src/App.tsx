@@ -1,7 +1,7 @@
 import React from "react";
-import { GlobalStyle } from "./lib/theme";
+import { GlobalStyle } from "./lib";
 import { lightTheme, darkTheme } from "./lib";
-import { Placeholder, Button, Icon, Button, ButtonLink, Badge } from "./lib";
+import { Card } from "./lib";
 import { ThemeProvider } from "styled-components";
 
 function App() {
@@ -12,8 +12,7 @@ function App() {
     <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
       <GlobalStyle />
       <main>
-        <Badge size="base" text="Hello world" />
-        <Badge outlined appearance="green" size="small" text="Hello world" />
+        <Card />
       </main>
     </ThemeProvider>
   );

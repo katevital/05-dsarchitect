@@ -463,6 +463,20 @@ export const lightTheme: DefaultTheme = {
     sectionInner: spacers[12],
     sectionBase: spacers[24],
   },
+  shadows: {
+    surface: {
+      elevated: `0px 1px 6px rgba(34, 49, 69, 0.12)`,
+      hover: `0px 2px 12px rgba(34, 49, 69, 0.12)`,
+    },
+    overlay: {
+      content: `0px 2px 4px rgba(14, 19, 27, 0.16)`,
+      tooltip: `0px 2px 8px rgba(14, 19, 27, 0.12)`,
+      drawer: `0px 2px 12px rgba(14, 19, 27, 0.12)`,
+      modal: `0px 2px 24px rgba(34, 49, 69, 0.16)`,
+      notifications: `0px 2px 24px rgba(34, 49, 69, 0.16)`,
+    },
+  },
+  focus: `0px 0px 0px 2px rgba(79, 96, 255, 0.25)`,
 };
 
 export const darkTheme: DefaultTheme = {

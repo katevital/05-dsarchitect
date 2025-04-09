@@ -460,5 +460,19 @@ declare module "styled-components" {
       sectionInner: string;
       sectionBase: string;
     };
+    shadows: {
+      surface: {
+        elevated: string;
+        hover: string;
+      };
+      overlay: {
+        content: string;
+        tooltip: string;
+        drawer: string;
+        modal: string;
+        notifications: string;
+      };
+    };
+    focus: string;
   }
 }

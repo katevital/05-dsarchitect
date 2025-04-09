@@ -9,8 +9,8 @@ interface IButtonProps {
   size: TSize;
   loading?: boolean;
   disabled?: boolean;
-  iconBefore?: string;
-  iconAfter?: string;
+  iconBefore?: iconsType;
+  iconAfter?: iconsType;
   text?: string;
 }
 
@@ -25,6 +25,9 @@ const StyledButton = styled.button<IButtonProps>`
   transition: 0.2s ease;
   padding: unset;
   gap: ${(props) => props.theme.spacing.inner.close};
+  &:focus {
+    box-shadow: ${(props) => props.theme.focus};
+  }
 
   ${(props) =>
     props.size === "base" &&
@@ -69,12 +72,6 @@ const StyledButton = styled.button<IButtonProps>`
    color: ${props.theme.colors.text.inverted};
    }
 
-   &:focus {
-   background-color: ${props.theme.colors.bg.accent.loud.focus};
-   border-color: ${props.theme.colors.border.accent.loud.focus};
-   color: ${props.theme.colors.text.inverted};
-   }
-
    `}
   ${(props) =>
     props.appearance === "secondary" &&
@@ -97,11 +94,6 @@ const StyledButton = styled.button<IButtonProps>`
    color: ${props.theme.colors.text.accent.loud.active};
    }
 
-   &:focus {
-   background-color: ${props.theme.colors.bg.accent.calm.focus};
-   border-color: ${props.theme.colors.border.accent.loud.focus};
-   color: ${props.theme.colors.text.accent.loud.focus};
-   }
    `}
 
   ${(props) =>
